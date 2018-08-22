@@ -1,0 +1,58 @@
+.headerContent {
+    /*background-image: url("https://assets.calm.com/b546a0600182216fd9d471da57c2c8e5.jpeg");*/
+    background: #8339a3 url("http://www.allabouthappylife.com/wallpaper/doppel-monitor/himmel/beautiful_sky-dsc01468-dws.jpg") no-repeat center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Roboto, monospace;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10%;
+}
+
+button {
+    width: 155px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.buttonText {
+    font-family: Roboto, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #8339a3;
+}
+
+@media only screen {
+    .headerContent {
+        width: 100%;
+        height: 630px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .headerContent {
+        max-width: 992px;
+        height: 630px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .headerContent {
+        max-width: 600px;
+        height: 480px;
+    }
+}
